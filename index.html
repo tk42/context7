@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Context7 - From Voice to Context</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      font-weight: 600;
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+    }
+    section {
+      margin: 3rem 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #f1f5f9;
+    }
+    .features, .usecases, .tech {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: 1fr;
+    }
+    .feature-box {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Context7</h1>
+      <p>From voice to context. Automatically. Transcribe, structure, and deploy podcast & video content via RSS or API for your AI workflows.</p>
+      <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <section>
+      <h2>What is Context7?</h2>
+      <div class="features">
+        <div class="feature-box">
+          <strong>🎙 Transcription</strong><br>
+          Auto-capture transcripts from Podcasts & YouTube
+        </div>
+        <div class="feature-box">
+          <strong>🧠 Context Structuring</strong><br>
+          Segment and semantically enrich the content for RAG & LLMs
+        </div>
+        <div class="feature-box">
+          <strong>📡 Distribution</strong><br>
+          Deliver via RSS, Slack, or custom API endpoints
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Use Cases</h2>
+      <div class="usecases">
+        <div class="feature-box">Auto-blogging with AI summaries</div>
+        <div class="feature-box">RAG-ready dataset construction</div>
+        <div class="feature-box">Voice SEO and content syndication</div>
+        <div class="feature-box">Analytics on spoken media content</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technology</h2>
+      <div class="tech">
+        <div class="feature-box">OpenAI Whisper for transcription</div>
+        <div class="feature-box">LangChain & Gemini for semantic parsing</div>
+        <div class="feature-box">FastAPI + Supabase backend</div>
+        <div class="feature-box">RSS & Slack integration</div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 Context7. Built for a world where voice becomes knowledge.
+    </footer>
+  </div>
+</body>
+</html>
